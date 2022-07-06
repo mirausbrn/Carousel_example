@@ -1,0 +1,82 @@
+body {
+  color: #blue;
+  background-color: #white;
+  font-family: 'Oxygen', sans-serif; 
+  text-align: center;
+}
+
+h1 {
+
+font-family: Amatic;
+color: blue;
+padding-top: 20px;
+font-size: 4vw;
+padding-bottom: 20px;
+}
+
+/*CAROUSEL GALLERY*/
+
+.carousel-inner img {
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+.carousel-caption {
+
+font-family: Amatic;
+color: white;
+font-size: 1.5vw;
+padding-bottom: 30px;
+text-align: center;
+}
+
+.myParagraph {
+
+font-family: Amatic;
+color: blue;
+font-size: 1.5vw;
+padding-bottom: 30px;
+text-align: center;
+
+}
+
+/*END of CAROUSEL*/
+
+/********** Super extra small devices (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+    h1 { /* header  */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+
+  /********** Extra small devices **********/
+@media (max-width: 767px) {
+    h1 { /* header  */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  /********** Medium devices  **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+   h1 { /* header  */
+    padding-top: 15px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+
+   /********** Large devices **********/
+@media (min-width: 1200px) {
+    h1 { /* header  */
+    padding-top: 20px;
+    font-size: 3vw; /* 1vw = 1% of viewport width */
+  }
